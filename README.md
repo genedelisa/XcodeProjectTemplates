@@ -4,10 +4,11 @@
 [![GitHub tag](https://img.shields.io/github/tag/genedelisa/tablebinding.svg)](https://github.com/genedelisa/XcodeProjectTemplates/)
 [![GitHub release](https://img.shields.io/github/release/genedelisa/tablebinding.svg)](https://github.com/genedelisa/XcodeProjectTemplates/)
 
-Some simple Xcode project templates with files I always include.
+Some simple Xcode project templates with files I always include. One template
+for iOS and another for Cocoa.
 
 I was especially annoyed by how hard it is to create "hidden" files that begin
-with a . in Xcode, so here is a template that creates them for you.
+with a . in Xcode, so here are templates that create them for you.
 
 * .gitignore
 * .travis.yml
@@ -16,6 +17,8 @@ with a . in Xcode, so here is a template that creates them for you.
 
 Run the install.sh script or copy manually if you don't like being bashed.
 
+The script will install them to ~/Library/Developer/Xcode/Templates/Project\
+Templates/FolderNameYouSpecifyOnTheCommandLine
 
 ## Blog post for this example.
 
