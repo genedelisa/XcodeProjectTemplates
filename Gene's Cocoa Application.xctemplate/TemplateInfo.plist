@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.rockhoppertech.cocoaApplication</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.coreDataApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+
+
+	<key>Definitions</key>
+	<dict>
+		<key>README.md</key>
+		<dict>
+			<key>Path</key>
+			<string>README.md</string>
+		</dict>
+		<key>.gitignore</key>
+		<dict>
+			<key>Path</key>
+			<string>.gitignore</string>
+		</dict>
+		<key>.travis.yml</key>
+		<dict>
+			<key>Path</key>
+			<string>.travis.yml</string>
+		</dict>
+		<key>LICENSE</key>
+		<dict>
+			<key>Path</key>
+			<string>LICENSE</string>
+		</dict>
+		<key>Credits.html</key>
+		<dict>
+			<key>Path</key>
+			<string>Credits.html</string>
+		</dict>
+	</dict>
+
+        <key>Nodes</key>
+        <array>
+	  <string>README.md</string>
+	  <string>LICENSE</string>
+	  <string>Credits.html</string>
+	  <string>.gitignore</string>
+	  <string>.travis.yml</string>
+        </array>
+
+
+
+	<key>Description</key>
+	<string>Gene&apos;s template creates a Cocoa application for the OS X platform.</string>
+	<key>SortOrder</key>
+	<integer>2</integer>
+</dict>
+</plist>
