@@ -1,11 +1,19 @@
 # Gene's Xcode templates
-XcodeProjectTemplates
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://en.wikipedia.org/wiki/MIT_License)
 [![GitHub tag](https://img.shields.io/github/tag/genedelisa/tablebinding.svg)](https://github.com/genedelisa/XcodeProjectTemplates/)
 [![GitHub release](https://img.shields.io/github/release/genedelisa/tablebinding.svg)](https://github.com/genedelisa/XcodeProjectTemplates/)
 
 Some simple Xcode project templates with files I always include.
+
+I was especially annoyed by how hard it is to create "hidden" files that begin
+with a . in Xcode, so here is a template that creates them for you.
+
+* .gitignore
+* .travis.yml
+* LICENSE
+* Credits.html for Cocoa projects
+
 Run the install.sh script or copy manually if you don't like being bashed.
 
 
