@@ -12,13 +12,16 @@ with a . in Xcode, so here are templates that create them for you.
 
 * .gitignore
 * .travis.yml
+* README.md
 * LICENSE
 * Credits.html for Cocoa projects
 
+You can easily find these file templates and modify them to your taste. They use
+the template placeholders so some things are already customized for you.
+
 Run the install.sh script or copy manually if you don't like being bashed.
 
-The script will install them to ~/Library/Developer/Xcode/Templates/Project\
-Templates/FolderNameYouSpecifyOnTheCommandLine
+The script will install them to ~/Library/Developer/Xcode/Templates/Project\ Templates/FolderNameYouSpecifyOnTheCommandLine
 
 ## Blog post for this example.
 
