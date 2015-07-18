@@ -38,11 +38,10 @@
 						<string>ViewController.m:implementation:methods:viewDidLoad:super</string>
 						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
 						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
-	  <string>README.md</string>
-	  <string>LICENSE</string>
-	  <string>.gitignore</string>
-	  <string>.travis.yml</string>
-
+						<string>../README.md</string>
+						<string>../LICENSE</string>
+						<string>../.gitignore</string>
+						<string>../.travis.yml</string>
 					</array>
 				</dict>
 				<key>Swift</key>
@@ -56,11 +55,10 @@
 						<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
 						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
 						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
-	  <string>README.md</string>
-	  <string>LICENSE</string>
-	  <string>.gitignore</string>
-	  <string>.travis.yml</string>
-
+						<string>../README.md</string>
+						<string>../LICENSE</string>
+						<string>../.gitignore</string>
+						<string>../.travis.yml</string>
 					</array>
 				</dict>
 			</dict>
@@ -75,27 +73,50 @@
 			<key>SortOrder</key>
 			<integer>99</integer>
 		</dict>
-		<key>README.md</key>
+		<key>../README.md</key>
 		<dict>
 			<key>Path</key>
 			<string>README.md</string>
+			<key>Group</key>
+			<array>
+				<string>Supporting Files</string>
+			</array>
+			<key>PathType</key>
+			<string>Group</string>
 		</dict>
-		<key>.gitignore</key>
+		<key>../.gitignore</key>
 		<dict>
 			<key>Path</key>
 			<string>.gitignore</string>
+			<key>Group</key>
+			<array>
+				<string>Supporting Files</string>
+			</array>
+			<key>PathType</key>
+			<string>Group</string>
 		</dict>
-		<key>.travis.yml</key>
+		<key>../.travis.yml</key>
 		<dict>
 			<key>Path</key>
 			<string>.travis.yml</string>
+			<key>Group</key>
+			<array>
+				<string>Supporting Files</string>
+			</array>
+			<key>PathType</key>
+			<string>Group</string>
 		</dict>
-		<key>LICENSE</key>
+		<key>../LICENSE</key>
 		<dict>
 			<key>Path</key>
 			<string>LICENSE</string>
+			<key>Group</key>
+			<array>
+				<string>Supporting Files</string>
+			</array>
+			<key>PathType</key>
+			<string>Group</string>
 		</dict>
-
 	</dict>
 </dict>
 </plist>
