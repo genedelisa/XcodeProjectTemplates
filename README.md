@@ -19,6 +19,9 @@ with a . in Xcode, so here are templates that create them for you.
 You can easily find these file templates and modify them to your taste. They use
 the template placeholders so some things are already customized for you.
 
+I originally wanted them to be in no group, i.e. at the project level. No such
+luck doing that. (do you know how?) So, they (except Credits.html) will be in a group named Supporting Files.
+
 Run the install.sh script or copy manually if you don't like being bashed.
 
 The script will install them to ~/Library/Developer/Xcode/Templates/Project\ Templates/FolderNameYouSpecifyOnTheCommandLine

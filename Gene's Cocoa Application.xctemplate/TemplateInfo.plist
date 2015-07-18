@@ -18,29 +18,46 @@
 		<dict>
 			<key>Path</key>
 			<string>README.md</string>
-			<key>TargetIndices</key>
-			<array/>
+                        <key>Group</key>
+			<array>
+			  <string>Supporting Files</string>
+			</array>
+			<key>PathType</key>
+			<string>Group</string>
+
 		</dict>
 		<key>../.gitignore</key>
 		<dict>
 			<key>Path</key>
 			<string>.gitignore</string>
-			<key>TargetIndices</key>
-			<array/>
+                        <key>Group</key>
+			<array>
+			  <string>Supporting Files</string>
+			</array>
+			<key>PathType</key>
+			<string>Group</string>
 		</dict>
 		<key>../.travis.yml</key>
 		<dict>
 			<key>Path</key>
 			<string>.travis.yml</string>
-			<key>TargetIndices</key>
-			<array/>
+                        <key>Group</key>
+			<array>
+			  <string>Supporting Files</string>
+			</array>
+			<key>PathType</key>
+			<string>Group</string>
 		</dict>
 		<key>../LICENSE</key>
 		<dict>
 			<key>Path</key>
 			<string>LICENSE</string>
-			<key>TargetIndices</key>
-			<array/>
+                        <key>Group</key>
+			<array>
+			  <string>Supporting Files</string>
+			</array>
+			<key>PathType</key>
+			<string>Group</string>
 		</dict>
 		<key>Credits.html</key>
 		<dict>
