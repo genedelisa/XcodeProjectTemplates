@@ -1,4 +1,4 @@
-# Gene's Xcode templates
+# Xcode Project templates
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://en.wikipedia.org/wiki/MIT_License)
 [![GitHub tag](https://img.shields.io/github/tag/genedelisa/tablebinding.svg)](https://github.com/genedelisa/XcodeProjectTemplates/)
