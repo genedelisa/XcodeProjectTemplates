@@ -6,11 +6,11 @@ folderName="GeneDeLisa"
 # Ensure that at most one argument has been passed in.
 if [ "$#" -eq 1 ]
 then
-	folderName=$1
+    folderName=$1
 elif [ "$#" -gt 1 ]
 then
-	echo -e "This script takes one argument at most.\\ne.g. install.sh \"GeneDeLisa\""
-	exit 1
+    echo -e "This script takes one argument at most.\\ne.g. install.sh \"GeneDeLisa\""
+    exit 1
 fi
 
 # Determine the install directory.
@@ -40,7 +40,10 @@ then
 
         * ) echo "Dude, just enter Y or N or Q, kay?";;
     esac
-done
+    done
+else
+    mkdir -p "$installDirectory"
+
 fi
 
 while true
@@ -55,12 +58,10 @@ do
             echo "Okay, installing to $installDirectory."
             # Copy all of the xctemplate folders into the install directory.
             cp -r *.xctemplate "$installDirectory"
-#            cp -r "Gene's Cocoa Application.xctemplate" "$installDirectory"
-#            cp -r "Gene's iOS Application.xctemplate" "$installDirectory"
             break;;
 
         [nNqQ]* ) echo ""
-            exit;;
+                  exit;;
 
         * ) echo "Dude, just enter Y or N or Q, kay?";;
     esac
