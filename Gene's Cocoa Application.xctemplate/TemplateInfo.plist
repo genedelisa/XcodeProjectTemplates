@@ -12,29 +12,35 @@
 	</array>
 	<key>Concrete</key>
 	<true/>
-
-
 	<key>Definitions</key>
 	<dict>
-		<key>README.md</key>
+		<key>../README.md</key>
 		<dict>
 			<key>Path</key>
 			<string>README.md</string>
+			<key>TargetIndices</key>
+			<array/>
 		</dict>
-		<key>.gitignore</key>
+		<key>../.gitignore</key>
 		<dict>
 			<key>Path</key>
 			<string>.gitignore</string>
+			<key>TargetIndices</key>
+			<array/>
 		</dict>
-		<key>.travis.yml</key>
+		<key>../.travis.yml</key>
 		<dict>
 			<key>Path</key>
 			<string>.travis.yml</string>
+			<key>TargetIndices</key>
+			<array/>
 		</dict>
-		<key>LICENSE</key>
+		<key>../LICENSE</key>
 		<dict>
 			<key>Path</key>
 			<string>LICENSE</string>
+			<key>TargetIndices</key>
+			<array/>
 		</dict>
 		<key>Credits.html</key>
 		<dict>
@@ -42,18 +48,14 @@
 			<string>Credits.html</string>
 		</dict>
 	</dict>
-
-        <key>Nodes</key>
-        <array>
-	  <string>README.md</string>
-	  <string>LICENSE</string>
-	  <string>Credits.html</string>
-	  <string>.gitignore</string>
-	  <string>.travis.yml</string>
-        </array>
-
-
-
+	<key>Nodes</key>
+	<array>
+		<string>../README.md</string>
+		<string>../LICENSE</string>
+		<string>Credits.html</string>
+		<string>../.gitignore</string>
+		<string>../.travis.yml</string>
+	</array>
 	<key>Description</key>
 	<string>Gene&apos;s template creates a Cocoa application for the OS X platform.</string>
 	<key>SortOrder</key>
