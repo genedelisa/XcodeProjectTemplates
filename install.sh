@@ -54,9 +54,9 @@ do
             echo ""
             echo "Okay, installing to $installDirectory."
             # Copy all of the xctemplate folders into the install directory.
-            #cp -r *.xctemplate "$installDirectory"
-            cp -r "Gene's Cocoa Application.xctemplate" "$installDirectory"
-            cp -r "Gene's iOS Application.xctemplate" "$installDirectory"
+            cp -r *.xctemplate "$installDirectory"
+#            cp -r "Gene's Cocoa Application.xctemplate" "$installDirectory"
+#            cp -r "Gene's iOS Application.xctemplate" "$installDirectory"
             break;;
 
         [nNqQ]* ) echo ""
